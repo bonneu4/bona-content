@@ -1,0 +1,553 @@
+{
+  "version": "2.0.0",
+  "bible_game_ids": [],
+  "doctrine_game_ids": [
+    "td_christ",
+    "td_christ_advanced",
+    "td_creation",
+    "td_ecclesiology",
+    "td_eschatology",
+    "td_god",
+    "td_god_advanced",
+    "td_human",
+    "td_pneumatology",
+    "td_providence",
+    "td_salvation",
+    "td_salvation_advanced",
+    "td_scripture",
+    "td_sin",
+    "td_trinity",
+    "td_trinity_advanced"
+  ],
+  "achievements": [
+    {
+      "id": "cards_00001",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "첫걸음"
+      },
+      "desc": {
+        "ko": "여정의 첫 발을 떼다"
+      },
+      "icon": "cards_00001",
+      "cond": {
+        "type": "cards_completed",
+        "value": 1
+      }
+    },
+    {
+      "id": "cards_00010",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "길 위에 서다"
+      },
+      "desc": {
+        "ko": "꾸준히 걷기 시작하다"
+      },
+      "icon": "cards_00010",
+      "cond": {
+        "type": "cards_completed",
+        "value": 10
+      }
+    },
+    {
+      "id": "cards_00050",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "순례자"
+      },
+      "desc": {
+        "ko": "길에 익숙해지다"
+      },
+      "icon": "cards_00050",
+      "cond": {
+        "type": "cards_completed",
+        "value": 50
+      }
+    },
+    {
+      "id": "cards_00100",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "익숙한 발걸음"
+      },
+      "desc": {
+        "ko": "걸음에 망설임이 없다"
+      },
+      "icon": "cards_00100",
+      "cond": {
+        "type": "cards_completed",
+        "value": 100
+      }
+    },
+    {
+      "id": "cards_00300",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "노련한 순례자"
+      },
+      "desc": {
+        "ko": "먼 길을 마다하지 않다"
+      },
+      "icon": "cards_00300",
+      "cond": {
+        "type": "cards_completed",
+        "value": 300
+      }
+    },
+    {
+      "id": "cards_00600",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "먼 길의 나그네"
+      },
+      "desc": {
+        "ko": "돌아본 길이 아득하다"
+      },
+      "icon": "cards_00600",
+      "cond": {
+        "type": "cards_completed",
+        "value": 600
+      }
+    },
+    {
+      "id": "cards_01000",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "천 리 길"
+      },
+      "desc": {
+        "ko": "천 리를 걸어온 자"
+      },
+      "icon": "cards_01000",
+      "cond": {
+        "type": "cards_completed",
+        "value": 1000
+      }
+    },
+    {
+      "id": "cards_02000",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "멈추지 않는 자"
+      },
+      "desc": {
+        "ko": "발걸음이 멈추지 않다"
+      },
+      "icon": "cards_02000",
+      "cond": {
+        "type": "cards_completed",
+        "value": 2000
+      }
+    },
+    {
+      "id": "cards_03500",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "광야를 건넌 자"
+      },
+      "desc": {
+        "ko": "마른 땅을 지나오다"
+      },
+      "icon": "cards_03500",
+      "cond": {
+        "type": "cards_completed",
+        "value": 3500
+      }
+    },
+    {
+      "id": "cards_05000",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "만 리를 걸은 자"
+      },
+      "desc": {
+        "ko": "절반을 넘어서다"
+      },
+      "icon": "cards_05000",
+      "cond": {
+        "type": "cards_completed",
+        "value": 5000
+      }
+    },
+    {
+      "id": "cards_07500",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "길의 끝을 본 자"
+      },
+      "desc": {
+        "ko": "끝이 보이기 시작하다"
+      },
+      "icon": "cards_07500",
+      "cond": {
+        "type": "cards_completed",
+        "value": 7500
+      }
+    },
+    {
+      "id": "cards_10000",
+      "category": "pilgrimage",
+      "title": {
+        "ko": "모든 길을 걸은 순례자"
+      },
+      "desc": {
+        "ko": "모든 길을 끝까지 걷다"
+      },
+      "icon": "cards_10000",
+      "cond": {
+        "type": "cards_completed",
+        "value": 10000
+      }
+    },
+    {
+      "id": "day_0003",
+      "category": "tree",
+      "title": {
+        "ko": "한 알의 씨앗"
+      },
+      "desc": {
+        "ko": "땅에 심기다"
+      },
+      "icon": "day_0003",
+      "cond": {
+        "type": "total_days",
+        "value": 3
+      }
+    },
+    {
+      "id": "day_0007",
+      "category": "tree",
+      "title": {
+        "ko": "돋아난 새싹"
+      },
+      "desc": {
+        "ko": "한 주를 채우다"
+      },
+      "icon": "day_0007",
+      "cond": {
+        "type": "total_days",
+        "value": 7
+      }
+    },
+    {
+      "id": "day_0014",
+      "category": "tree",
+      "title": {
+        "ko": "떡잎 두 장"
+      },
+      "desc": {
+        "ko": "두 주를 지나다"
+      },
+      "icon": "day_0014",
+      "cond": {
+        "type": "total_days",
+        "value": 14
+      }
+    },
+    {
+      "id": "day_0030",
+      "category": "tree",
+      "title": {
+        "ko": "어린 나무"
+      },
+      "desc": {
+        "ko": "한 달을 채우다"
+      },
+      "icon": "day_0030",
+      "cond": {
+        "type": "total_days",
+        "value": 30
+      }
+    },
+    {
+      "id": "day_0060",
+      "category": "tree",
+      "title": {
+        "ko": "자리 잡은 나무"
+      },
+      "desc": {
+        "ko": "흔들리지 않다"
+      },
+      "icon": "day_0060",
+      "cond": {
+        "type": "total_days",
+        "value": 60
+      }
+    },
+    {
+      "id": "day_0100",
+      "category": "tree",
+      "title": {
+        "ko": "뿌리내린 나무"
+      },
+      "desc": {
+        "ko": "백 일의 뿌리"
+      },
+      "icon": "day_0100",
+      "cond": {
+        "type": "total_days",
+        "value": 100
+      }
+    },
+    {
+      "id": "day_0200",
+      "category": "tree",
+      "title": {
+        "ko": "가지를 뻗은 나무"
+      },
+      "desc": {
+        "ko": "새가 깃들기 시작하다"
+      },
+      "icon": "day_0200",
+      "cond": {
+        "type": "total_days",
+        "value": 200
+      }
+    },
+    {
+      "id": "day_0365",
+      "category": "tree",
+      "title": {
+        "ko": "사철의 나무"
+      },
+      "desc": {
+        "ko": "한 해를 지나다"
+      },
+      "icon": "day_0365",
+      "cond": {
+        "type": "total_days",
+        "value": 365
+      }
+    },
+    {
+      "id": "day_0600",
+      "category": "tree",
+      "title": {
+        "ko": "그늘을 드리운 나무"
+      },
+      "desc": {
+        "ko": "누군가 쉬어 갈 만큼"
+      },
+      "icon": "day_0600",
+      "cond": {
+        "type": "total_days",
+        "value": 600
+      }
+    },
+    {
+      "id": "day_1000",
+      "category": "tree",
+      "title": {
+        "ko": "시냇가에 심은 나무"
+      },
+      "desc": {
+        "ko": "철을 따라 열매 맺는 나무"
+      },
+      "icon": "day_1000",
+      "cond": {
+        "type": "total_days",
+        "value": 1000
+      }
+    },
+    {
+      "id": "title_seeker",
+      "category": "title",
+      "title": {
+        "ko": "구도자 (Seeker)"
+      },
+      "desc": {
+        "ko": "길을 찾기 시작하다"
+      },
+      "icon": "title_seeker",
+      "cond": {
+        "type": "tag_count",
+        "tag": "복음",
+        "value": 5
+      }
+    },
+    {
+      "id": "title_apologist",
+      "category": "title",
+      "title": {
+        "ko": "변증가 (Apologist)"
+      },
+      "desc": {
+        "ko": "믿음의 이유를 지키다"
+      },
+      "icon": "title_apologist",
+      "cond": {
+        "type": "tag_count",
+        "tag": "교리",
+        "value": 5
+      }
+    },
+    {
+      "id": "title_architect",
+      "category": "title",
+      "title": {
+        "ko": "건축가 (Architect)"
+      },
+      "desc": {
+        "ko": "진리의 집을 세우다"
+      },
+      "icon": "title_architect",
+      "cond": {
+        "type": "tag_count",
+        "tag": "교회",
+        "value": 5
+      }
+    },
+    {
+      "id": "title_witness",
+      "category": "title",
+      "title": {
+        "ko": "증인 (Witness)"
+      },
+      "desc": {
+        "ko": "끝까지 증언하다"
+      },
+      "icon": "title_witness",
+      "cond": {
+        "type": "tags_all",
+        "tags": [
+          "성령",
+          "부활",
+          "전도",
+          "영적전쟁",
+          "십자가",
+          "회개"
+        ],
+        "value": 1
+      }
+    },
+    {
+      "id": "bible_clear_01",
+      "category": "fantasy",
+      "title": {
+        "ko": "견습 기사"
+      },
+      "desc": {
+        "ko": ""
+      },
+      "icon": "bible_clear_01",
+      "cond": {
+        "type": "game_clear",
+        "pool": "bible",
+        "value": 1
+      }
+    },
+    {
+      "id": "bible_clear_05",
+      "category": "fantasy",
+      "title": {
+        "ko": "소드 러너"
+      },
+      "desc": {
+        "ko": ""
+      },
+      "icon": "bible_clear_05",
+      "cond": {
+        "type": "game_clear",
+        "pool": "bible",
+        "value": 5
+      }
+    },
+    {
+      "id": "bible_clear_20",
+      "category": "fantasy",
+      "title": {
+        "ko": "소드 유저"
+      },
+      "desc": {
+        "ko": ""
+      },
+      "icon": "bible_clear_20",
+      "cond": {
+        "type": "game_clear",
+        "pool": "bible",
+        "value": 20
+      }
+    },
+    {
+      "id": "bible_clear_40",
+      "category": "fantasy",
+      "title": {
+        "ko": "소드 익스퍼트"
+      },
+      "desc": {
+        "ko": ""
+      },
+      "icon": "bible_clear_40",
+      "cond": {
+        "type": "game_clear",
+        "pool": "bible",
+        "value": 40
+      }
+    },
+    {
+      "id": "bible_perfect_80",
+      "category": "fantasy",
+      "title": {
+        "ko": "소드 마스터 ★"
+      },
+      "desc": {
+        "ko": ""
+      },
+      "icon": "bible_perfect_80",
+      "cond": {
+        "type": "game_perfect",
+        "pool": "bible",
+        "value": 80
+      }
+    },
+    {
+      "id": "doc_clear_40",
+      "category": "fantasy",
+      "title": {
+        "ko": "현자"
+      },
+      "desc": {
+        "ko": ""
+      },
+      "icon": "doc_clear_40",
+      "cond": {
+        "type": "game_clear",
+        "pool": "doctrine",
+        "value": 40
+      }
+    },
+    {
+      "id": "doc_perfect_80",
+      "category": "fantasy",
+      "title": {
+        "ko": "대현자 ★"
+      },
+      "desc": {
+        "ko": ""
+      },
+      "icon": "doc_perfect_80",
+      "cond": {
+        "type": "game_perfect",
+        "pool": "doctrine",
+        "value": 80
+      }
+    },
+    {
+      "id": "game_perfect_120",
+      "category": "fantasy",
+      "title": {
+        "ko": "진리의 수호자 ★★"
+      },
+      "desc": {
+        "ko": ""
+      },
+      "icon": "game_perfect_120",
+      "cond": {
+        "type": "game_perfect",
+        "pool": "all",
+        "value": 120
+      }
+    }
+  ]
+}
